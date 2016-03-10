@@ -72,9 +72,9 @@ a:hover {
 	width: 100%;
 	text-align: center;
 
-	font-size: 160px;
+	font-size: 12vh;
 	color: #E28746;
-	margin-bottom: -40px;
+	margin-bottom: -3%;
 }
 
 .spacer {
@@ -85,9 +85,7 @@ a:hover {
 /* NAVBAR */
 .subtitle {
 	text-align: center;
-	
-	font-size: 35px;
-	padding-bottom: 30px;
+	font-size: 2.5vh;
 }
 
 

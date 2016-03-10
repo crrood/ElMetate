@@ -3,7 +3,7 @@ $(function(){
 });
 
 $(window).scroll(function(){
-  if($(document).scrollTop() > 0)
+  if($(document).scrollTop() > 75)
 {
     if($('.title-container').data('size') == 'big')
     {
@@ -12,11 +12,11 @@ $(window).scroll(function(){
             height:'7%'
         },600);
         $('.title').stop().animate({
-            fontSize:'53px'
+            fontSize:'4.5vh'
         },600);
         $('.subtitle').stop().animate({
-            fontSize:'18px',
-            marginTop:'32px'
+            fontSize:'1.25vh',
+            marginTop:'1.5%'
         },600);
     }
 }
@@ -29,10 +29,10 @@ else
             height:'20%'
         },600);
         $('.title').stop().animate({
-            fontSize:'160px'
+            fontSize:'12vh'
         },600);
         $('.subtitle').stop().animate({
-            fontSize:'35px',
+            fontSize:'2.5vh',
             marginTop:'0px'
         },600);
       }  
